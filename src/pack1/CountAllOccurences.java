@@ -17,7 +17,7 @@ public class CountAllOccurences {
 				countMap.put(c, 1);
 		}
 		for (char c: countMap.keySet()){
-			if(countMap.get(c)>1)
+			if(countMap.get(c)>0)
 			System.out.println(c +" occurs "+ countMap.get(c)+" times");
 		}
 	

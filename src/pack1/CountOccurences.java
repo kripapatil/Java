@@ -7,7 +7,8 @@ public class CountOccurences {
 		int x=3;
 		System.out.println("The occurence of "+x+" in the given array is: "+countOcc(arr,n,x));
 	}
-static int countOcc(int arr[], int n, int x){
+
+	    static int countOcc(int arr[], int n, int x){
 		int res = 0;
 		for(int i=0;i<n;i++){
 			if(x==arr[i])
@@ -16,3 +17,7 @@ static int countOcc(int arr[], int n, int x){
 		return res;
 		}
 }
+
+
+
+
